@@ -12,7 +12,6 @@ jobs:
     strategy:
       matrix:
         go:
-          - "1.17"
           - "1.18"
           - "1.19"
           - "1.20"
@@ -44,4 +43,4 @@ jobs:
           file: ./cover.out
           flags: unittests
           verbose: true
-        if: matrix.go == '1.17'
+        if: matrix.go == '1.18'

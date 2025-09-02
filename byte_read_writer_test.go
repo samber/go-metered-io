@@ -43,7 +43,7 @@ func TestNewReadWriter(t *testing.T) {
 	is.Equal(rw.Rx(), uint64(24))
 	is.Equal(rw.Tx(), uint64(24))
 
-	conn.Close()
+	_ = conn.Close()
 
 	n, err = rw.Write([]byte("hello world\n"))
 	is.Equal(n, 0)

@@ -2,7 +2,7 @@
 # Metered io.Reader and io.Writer
 
 [![tag](https://img.shields.io/github/tag/samber/go-metered-io.svg)](https://github.com/samber/go-metered-io/releases)
-![Go Version](https://img.shields.io/badge/Go-%3E%3D%201.16.0-%23007d9c)
+![Go Version](https://img.shields.io/badge/Go-%3E%3D%201.18.0-%23007d9c)
 [![GoDoc](https://godoc.org/github.com/samber/go-metered-io?status.svg)](https://pkg.go.dev/github.com/samber/go-metered-io)
 ![Build Status](https://github.com/samber/go-metered-io/actions/workflows/test.yml/badge.svg)
 [![Go report](https://goreportcard.com/badge/github.com/samber/go-metered-io)](https://goreportcard.com/report/github.com/samber/go-metered-io)
@@ -10,7 +10,7 @@
 [![Contributors](https://img.shields.io/github/contributors/samber/go-metered-io)](https://github.com/samber/go-metered-io/graphs/contributors)
 [![License](https://img.shields.io/github/license/samber/go-metered-io)](./LICENSE)
 
-A drop-in replacement to `io.Reader` and `io.Writer` from the standard library with the total number of bytes transfered.
+A drop-in replacement to `io.Reader` and `io.Writer` from the standard library with the total number of bytes transferred.
 
 ## 🚀 Install
 
